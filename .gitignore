@@ -1,0 +1,5 @@
+# Ignoriere die Datei, die den Bot-Token enthält
+bot_token.txt
+
+# Ignoriere alle Dateien im Ordner, die mit sensiblen Informationen versehen sind
+sensible_informationen/*
