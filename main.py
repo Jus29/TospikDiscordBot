@@ -182,5 +182,7 @@ async def spind(ctx, user: discord.Member):
 
 
 stay_alive()
-bot.run(
-    'MTEzNDk4MDA3MTA2MTQ1OTAyNg.GzSgU2.PEapxcXWeYHaZgBlmIR3XCSHmkX2lFdqw6eomE')
+
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
+
+bot.run(DISCORD_TOKEN)
